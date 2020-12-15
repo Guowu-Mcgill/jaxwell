@@ -7,6 +7,8 @@ from jaxwell import vecfield
 def _default_monitor_fn(x, errs):
   pass
 
+def test_for_colab(x):
+  return x
 
 def solve(z,
           b,
