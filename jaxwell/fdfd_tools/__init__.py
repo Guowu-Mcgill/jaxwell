@@ -18,13 +18,13 @@ Dependencies:
 - scipy
 
 """
-from fdfd_tools.types import *
+from .types import *
 
 from .vectorization import vec, unvec
 
-from fdfd_tools import functional
-from fdfd_tools import grid
-from fdfd_tools import operators
+from . import functional
+from . import grid
+from . import operators
 # from fdfd_tools import free_space_sources
-from fdfd_tools import solvers
-#from fdfd_tools import waveguide_mode
+from . import solvers
+#from . import waveguide_mode
