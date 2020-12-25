@@ -7,7 +7,7 @@ from typing import Callable, List, Optional, Tuple, Union
 
 import numpy as np
 
-import fdfd_tools
+import jaxwell.fdfd_tools
 
 s_function_type = Callable[[float], float]
 
