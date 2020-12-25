@@ -7,7 +7,7 @@ from typing import List, Tuple
 
 import numpy as np
 
-from fdfd_tools import types
+from . import types
 
 
 def vec(f: np.ndarray) -> types.VecField:
